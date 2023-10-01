@@ -1,0 +1,33 @@
+.app{
+    display:flex;
+    justify-content: center;
+}
+.card-wrapper{
+    max-width: 90%;
+    gap: 1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    margin: 1rem;
+}
+ 
+.pagination > span{
+    border: 1px solid rgb(89, 96, 243);
+    padding: 10px;
+    border-radius: 25%;
+    margin: 2px;
+    cursor: pointer;
+}
+.selectedPage{
+    
+    background-color: rgb(9, 39, 103);
+    color: rgb(255, 255, 255);
+}
